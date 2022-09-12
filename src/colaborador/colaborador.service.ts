@@ -53,6 +53,7 @@ export class ColaboradorService {
     result.endereco = data.endereco;
     result.telefone = data.telefone;
     result.empresa_id = data.empresa.codigo;
+    result.nome = data.nome;
 
     return result;
   }
